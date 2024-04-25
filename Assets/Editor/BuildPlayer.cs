@@ -21,7 +21,7 @@ public class BuildPlayer : MonoBehaviour
 
     Debug.Log(GetResult(report.summary));
 
-    //Hi plz build plz
+    //Hi plz build plz buildfile where?
   }
 
 
