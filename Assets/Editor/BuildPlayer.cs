@@ -21,6 +21,7 @@ public class BuildPlayer : MonoBehaviour
 
     Debug.Log(GetResult(report.summary));
 
+    //Hi
   }
 
 
