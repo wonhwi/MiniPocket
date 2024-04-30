@@ -8,7 +8,7 @@ using UnityEditor.Build.Reporting;
 public class BuildPlayer : MonoBehaviour
 {
   [MenuItem("Build/Standalone Windows")]
-  public static void Build_AOS_Debug()
+  public static void BuildStandaloneWindows()
   {
     BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions
     {
@@ -20,10 +20,7 @@ public class BuildPlayer : MonoBehaviour
     BuildReport report = BuildPipeline.BuildPlayer(buildPlayerOptions);
 
     Debug.Log(GetResult(report.summary));
-
-    //Hi plz build plz buildfile where?
   }
-
 
 
   static string[] GetScenes()
