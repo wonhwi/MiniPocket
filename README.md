@@ -20,4 +20,7 @@
 3. SSH(Secure Shell) 인증 자격 증명 변경
 RSA -> Ed25519
 
-웹훅 테스트
+4. 추후 구글 드라이브로 빌드 된 파일 업로드 예정
+
+5. Jenkins Editor command line aguments 수정
+-quit -batchmode -logFile "$WORKSPACE/JenkinsBuild.log" -buildTarget win64 -project Path "D:\GitHub\Project\MiniPocket"  -executeMethod BuildPlayer.BuildStandaloneWindows
