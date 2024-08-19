@@ -398,7 +398,7 @@ AudioMixerController:
     - cbf6d3f543ae3094d9dff356847dce65
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: -3124191647478958880}
+  m_TargetSnapshot: {fileID: 24500006}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -526,7 +526,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BGM
+  m_Name: SubBGM
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: cbf6d3f543ae3094d9dff356847dce65
   m_Children: []

@@ -5,5 +5,9 @@ using UnityEngine;
 
 public class ManagerConstant : Singleton<ManagerConstant>
 {
+  public delegate void Test();
+
+  public event Test test;
+
 
 }
